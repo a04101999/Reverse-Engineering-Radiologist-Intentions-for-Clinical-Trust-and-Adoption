@@ -6,7 +6,10 @@ In the rapidly evolving landscape of medical imaging, the synergy between artifi
 
 ## Training of TGID module
 
+````
+python -m torch.distributed.launch --nproc_per_node 8 --use_env dvc.py --epochs=100 --lr=3e-4 --save_dir=vit --batch_size=2 --batch_size_val=2 --schedule="cosine_with_warmup"
 
+````
 References: 
 
 @inproceedings{yang2023vid2seq,
