@@ -13,10 +13,31 @@ We have used the EGD-CXR and the REFLACX data for our project. Please find below
 
 ### EGD-CXR DATA 
 
+#### Prediction from the best model for EGD-CXR  (Test set) 
+
+https://drive.google.com/file/d/1qow004vlqNwCSnzUU_dXeBS6ZnUsy8vU/view?usp=sharing
+
+#### Test set ( Groud-truth file summarized report  ) 
+
+https://drive.google.com/file/d/16ELpup7LT6gIar4iJ9Tm7qZjz2rbPDum/view?usp=sharing
+
+#### Actual report wihtout summarization using chexpert labeler ( Train + test )
+
+https://drive.google.com/file/d/1kIKczHb2IK097a-T7-Ql7YZOxTF8cgqf/view?usp=sharing
+
+#### Eye Gaze heatmaps for both the ( Train and Test ) 
+We have uploaded some samples as it is very big to upload for both the train and test sets.
+
+#### Eye Gaze fixation data ( Train and Test ) 
+Please use the eye gaze fixation data to create the fixation heatmaps 
+
+
 ## Training of TGID module
 
+Example command to train on the REFLACX DATA
+
 ````
-python -m torch.distributed.launch --nproc_per_node 8 --use_env dvc.py --epochs=100 --lr=3e-4 --save_dir=vit --batch_size=2 --batch_size_val=2 --schedule="cosine_with_warmup"
+python -m torch.distributed.launch --nproc_per_node 6 --use_env dvc.py     --epochs 250     --lr 3e-4     --load 'vid2seq_htmchaptersvitt.pth'     --save_dir ref_data_summar     --combine_datasets youcook     --combine_datasets_val youcook     --batch_size 8     --batch_size_val 8     --schedule "cosine_with_warmup"     --youcook_features_path filtered_clip_ref_features.pth     --youcook_train_json_path filtered_train_data_ref_1705_new_summar.json     --youcook_val_json_path val_data_ref_567_summar.json     --youcook_subtitles_path ref_common_2272_youcook2_asr_align_proc.pkl
 
 ````
 
