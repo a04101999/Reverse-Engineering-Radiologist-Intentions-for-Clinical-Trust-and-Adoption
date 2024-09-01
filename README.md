@@ -23,7 +23,7 @@ python -m torch.distributed.launch --nproc_per_node 8 --use_env dvc.py --epochs=
 
 ## Results for EGD-CXR data
 
-We provide the jupyter notebook to reproduce  all our results and plots  on the EGD-CXR data in the jupyter notebook. All the data needed to run the notebook is uploaded. Please refer above data section for the EGD-CXR.
+We provide the jupyter notebook ( CSBJ-results_reproduce_egd-cxr_public_github.ipynb)  to reproduce  all our results and plots  on the EGD-CXR data in the jupyter notebook. All the data needed to run the notebook is uploaded. Please refer above data section for the EGD-CXR.
 
 
 ## References: 
