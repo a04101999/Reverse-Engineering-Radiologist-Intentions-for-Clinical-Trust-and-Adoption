@@ -25,7 +25,7 @@ https://drive.google.com/file/d/16ELpup7LT6gIar4iJ9Tm7qZjz2rbPDum/view?usp=shari
 
 https://drive.google.com/file/d/1Cj4R8hcfY0tBo4CbZiDwtKUcZBUfmejg/view?usp=sharing
 
-#### Actual report wihtout summarization using chexpert labeler ( Train + test )
+#### Actual report transcription wihtout summarization using chexpert labeler ( Train + test )
 
 https://drive.google.com/file/d/1kIKczHb2IK097a-T7-Ql7YZOxTF8cgqf/view?usp=sharing
 
