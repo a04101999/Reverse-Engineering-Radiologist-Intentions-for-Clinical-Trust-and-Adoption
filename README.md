@@ -9,7 +9,7 @@ In the rapidly evolving landscape of medical imaging, the synergy between artifi
 <img width="1153" alt="Screenshot 2024-09-01 at 12 41 00 PM" src="https://github.com/user-attachments/assets/36034419-47a5-4e66-a578-9991a15f5ad1">
 
 # DATA 
-We have used the EGD-CXR and the REFLACX data for our project. Please find below the data files uploaded. We have uploaded moast of the dataset we created and processed but the actual cxr  images are very big. Please refer to the offcial page of REFLACX AND EGD-CXR to download that
+We have used the EGD-CXR and the REFLACX data for our project. Please find below the data files uploaded. We have uploaded most of the dataset we created and processed but the actual cxr  images are very big. Please refer to the offcial page of REFLACX AND EGD-CXR to download that
 
 ### EGD-CXR DATA 
 
