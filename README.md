@@ -21,7 +21,7 @@ https://drive.google.com/file/d/1qow004vlqNwCSnzUU_dXeBS6ZnUsy8vU/view?usp=shari
 
 https://drive.google.com/file/d/16ELpup7LT6gIar4iJ9Tm7qZjz2rbPDum/view?usp=sharing
 
-#### Training set ( Groud-truth file summarized report , Intentions+ temporal grounding  ) 
+#### Training set ( Groud-truth file , diagnosis + temporal grounding  ) 
 
 https://drive.google.com/file/d/1Cj4R8hcfY0tBo4CbZiDwtKUcZBUfmejg/view?usp=sharing
 
