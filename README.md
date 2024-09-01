@@ -47,10 +47,10 @@ https://drive.google.com/file/d/1piQiRYmljmDgLWrDIU5TmdXWcst9n2ra/view?usp=shari
 
 ## Training of TGID module
 
-Example command to train on the REFLACX DATA
+Example command to train on the EGD-CXR DATA
 
 ````
-python -m torch.distributed.launch --nproc_per_node 6 --use_env dvc.py     --epochs 250     --lr 3e-4     --load 'vid2seq_htmchaptersvitt.pth'     --save_dir ref_data_summar     --combine_datasets youcook     --combine_datasets_val youcook     --batch_size 8     --batch_size_val 8     --schedule "cosine_with_warmup"     --youcook_features_path filtered_clip_ref_features.pth     --youcook_train_json_path filtered_train_data_ref_1705_new_summar.json     --youcook_val_json_path val_data_ref_567_summar.json     --youcook_subtitles_path ref_common_2272_youcook2_asr_align_proc.pkl
+python -m torch.distributed.launch --nproc_per_node 6 --use_env dvc.py     --epochs 250     --lr 3e-4     --load 'vid2seq_htmchaptersvitt.pth'     --save_dir ref_data_summar     --combine_datasets youcook     --combine_datasets_val youcook     --batch_size 8     --batch_size_val 8     --schedule "cosine_with_warmup"     --youcook_features_path clipvit.pth     --youcook_train_json_path train.json     --youcook_val_json_path val.json     --youcook_subtitles_path actual_report.pkl
 
 ````
 
