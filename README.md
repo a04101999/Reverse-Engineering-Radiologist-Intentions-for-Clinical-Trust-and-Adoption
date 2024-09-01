@@ -27,7 +27,7 @@ https://drive.google.com/file/d/1Cj4R8hcfY0tBo4CbZiDwtKUcZBUfmejg/view?usp=shari
 
 #### Actual report transcription wihtout summarization using chexpert labeler ( Train + test )
 
-https://drive.google.com/file/d/1kIKczHb2IK097a-T7-Ql7YZOxTF8cgqf/view?usp=sharing
+https://drive.google.com/file/d/1Tl2h2YdvS9mRr4q3DfOWbJ9aFlSpg8SA/view?usp=sharing
 
 #### Eye Gaze heatmaps for both the ( Train and Test ) 
 We have uploaded some samples of our created fixation heatmaps using the eye gaze data as it is very big to upload for both the train and test sets.
