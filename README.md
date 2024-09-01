@@ -17,19 +17,32 @@ We have used the EGD-CXR and the REFLACX data for our project. Please find below
 
 https://drive.google.com/file/d/1qow004vlqNwCSnzUU_dXeBS6ZnUsy8vU/view?usp=sharing
 
-#### Test set ( Groud-truth file summarized report  ) 
+#### Test set ( Groud-truth file summarized report, Intentions + temporal grounding  ) 
 
 https://drive.google.com/file/d/16ELpup7LT6gIar4iJ9Tm7qZjz2rbPDum/view?usp=sharing
+
+#### Training set ( Groud-truth file summarized report , Intentions+ temporal grounding  ) 
+
+https://drive.google.com/file/d/1Cj4R8hcfY0tBo4CbZiDwtKUcZBUfmejg/view?usp=sharing
 
 #### Actual report wihtout summarization using chexpert labeler ( Train + test )
 
 https://drive.google.com/file/d/1kIKczHb2IK097a-T7-Ql7YZOxTF8cgqf/view?usp=sharing
 
 #### Eye Gaze heatmaps for both the ( Train and Test ) 
-We have uploaded some samples as it is very big to upload for both the train and test sets.
+We have uploaded some samples of our created fixation heatmaps using the eye gaze data as it is very big to upload for both the train and test sets.
+
+https://drive.google.com/drive/folders/1WF2jzle1D6gVYv4mskypaQHd-9spF42K?usp=sharing
 
 #### Eye Gaze fixation data ( Train and Test ) 
 Please use the eye gaze fixation data to create the fixation heatmaps 
+
+https://drive.google.com/file/d/12JfxpAzRthnsEv57qgj0DZlqwVfehVxX/view?usp=sharing
+
+#### Pre-computed video features( Resnet-101) ( Train +Test set ) 
+
+https://drive.google.com/file/d/1piQiRYmljmDgLWrDIU5TmdXWcst9n2ra/view?usp=sharing
+
 
 
 ## Training of TGID module
