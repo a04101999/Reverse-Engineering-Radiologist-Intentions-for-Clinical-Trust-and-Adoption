@@ -47,17 +47,30 @@ https://drive.google.com/file/d/1piQiRYmljmDgLWrDIU5TmdXWcst9n2ra/view?usp=shari
 
 ## Training of TGID module
 
-Example command to train on the EGD-CXR DATA
+Example command to train on the EGD-CXR DATA. Always start with the pretrained model on ActivityNet caption dataset "vid2seq_htmchaptersvitt.pth" (Google)
 
 ````
 python -m torch.distributed.launch --nproc_per_node 6 --use_env dvc.py     --epochs 250     --lr 3e-4     --load 'vid2seq_htmchaptersvitt.pth'     --save_dir ref_data_summar     --combine_datasets youcook     --combine_datasets_val youcook     --batch_size 8     --batch_size_val 8     --schedule "cosine_with_warmup"     --youcook_features_path clipvit.pth     --youcook_train_json_path train.json     --youcook_val_json_path val.json     --youcook_subtitles_path actual_report.pkl
 
 ````
+#### finetuned model on the EGD-CXR
 
+https://drive.google.com/file/d/1oTH50PVDMBcX8ew87_Xm13BuFyohmupf/view?usp=sharing
+##### Log files created during finetuning 
+
+https://drive.google.com/file/d/1IlgF8nlV4fVqZvf5RnRbhRTTL0ZlyKp7/view?usp=sharing
+
+#### finetuned model on the REFLACX-CXR
+
+https://drive.google.com/drive/folders/1U7jOPrQU8qc16CaCfDGSGCPwWF2brOwk?usp=sharing
+
+##### Log files created during finetuning 
+https://drive.google.com/file/d/1qgB7CjaZ8pCoGTwG7gkxz9tiIcFCWNKi/view?usp=sharing
 
 ## Results for EGD-CXR data
 
 We provide the jupyter notebook ( CSBJ-results_reproduce_egd-cxr_public_github.ipynb)  to reproduce  all our results and plots  on the EGD-CXR data in the jupyter notebook. All the data needed to run the notebook is uploaded. Please refer above data section for the EGD-CXR.
+
 
 
 ## References: 
