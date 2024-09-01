@@ -14,7 +14,14 @@ In the rapidly evolving landscape of medical imaging, the synergy between artifi
 python -m torch.distributed.launch --nproc_per_node 8 --use_env dvc.py --epochs=100 --lr=3e-4 --save_dir=vit --batch_size=2 --batch_size_val=2 --schedule="cosine_with_warmup"
 
 ````
-References: 
+
+
+## Results for EGD-CXR data
+
+We provide the jupyter notebook to reproduce  all our results and plots  on the EGD-CXR data in the jupyter notebook. All the data needed to run the notebook is uploaded. Please refer above data section for the EGD-CXR.
+
+
+## References: 
 
 @inproceedings{yang2023vid2seq,
   title={Vid2Seq: Large-Scale Pretraining of a Visual Language Model for Dense Video Captioning},
